@@ -1,0 +1,46 @@
+.banner {
+    font-size: 1rem;
+    padding: 1em;
+    display: flex;
+    align-items: flex-start;
+    gap: 1em;
+}
+
+.banner-text {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    text-align: left;
+}
+
+.banner-text h4 {
+    margin-bottom: 1em;
+}
+
+.banner-icon {
+    transform: translate(0, 3px)
+}
+
+.success {
+    color: #065F46;
+    background-color: #ECFDF5;
+}
+
+.warning {
+    color: #B45309;
+    background-color: #FFFBEB;
+}
+
+.error {
+    color: #92400E;
+    background-color: #FEF2F2;
+}
+
+.neutral {
+    color: #1C51B9;
+    background-color: #EFF6FF;
+}
+
+.bold {
+    font-weight: bold;
+}
