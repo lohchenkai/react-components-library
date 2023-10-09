@@ -8,7 +8,7 @@
 .section {
   display: flex;
   gap: 2em; 
-  margin: 2em;
+  margin: 3em;
 }
 
 .section-banner {
