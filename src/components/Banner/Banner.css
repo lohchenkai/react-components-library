@@ -18,7 +18,7 @@
 }
 
 .banner-icon {
-    transform: translate(0, 3px)
+    transform: translateY(3px)
 }
 
 .success {

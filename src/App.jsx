@@ -30,6 +30,9 @@ function App() {
         <Card title="RIZZZZ">
           Lorem ipsum dolor sit amet.
         </Card>
+        <Card title="RIZZZZ">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, veniam.
+        </Card>
       </div>
     </>
   )

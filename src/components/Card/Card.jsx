@@ -6,7 +6,9 @@ export default function Card({children, title="Easy Deployment"}){
         <div className="card">
             <h2>{title}</h2>
             {children && <p>{children}</p>}
-            <AiOutlineCloudUpload className="card-icon" />
+            <div className="card-icon-container">
+                <AiOutlineCloudUpload className="card-icon" />
+            </div>
         </div>
     )
 }
