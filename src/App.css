@@ -5,12 +5,17 @@
   text-align: center;
 }
 
+/* utility */
+.section.mt-3 {
+  margin-top: 7em;
+}
+
 .section {
   display: flex;
   gap: 2em; 
   margin: 3em;
 }
 
-.section-banner {
+.flex-col {
   flex-direction: column;
 }

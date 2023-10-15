@@ -2,6 +2,7 @@ import './App.css'
 import Badge from './components/Badge/Badge'
 import Banner from './components/Banner/Banner'
 import Card from './components/Card/Card'
+import Testimonial from './components/Testimonial/Testimonial'
 
 function App() {
 
@@ -18,7 +19,7 @@ function App() {
         <Badge shape="pill" color="pink">Pink</Badge>
       </div>
 
-      <div className="section section-banner">
+      <div className="section flex-col">
         <Banner variant="success" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci, ad.</Banner>
         <Banner variant="warning" >Lorem ipsum dolor sit amet.</Banner>
         <Banner variant="error" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero consequuntur laborum inventore consectetur pariatur autem, non doloribus, maxime debitis vero corporis unde aperiam! Alias praesentium hic officiis obcaecati quas perferendis.
@@ -33,6 +34,16 @@ function App() {
         <Card title="RIZZZZ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, veniam.
         </Card>
+      </div>
+
+      <div className="section mt-3 flex-col">
+        <Testimonial imageSource="https://picsum.photos/500" company="Workcation" job="CTO" name="May Anderson">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ratione nobis voluptatibus alias, corporis adipisci ipsa sit consequuntur laborum animi laudantium maiores esse doloribus voluptas. Fugiat ratione alias in autem.
+        </Testimonial>
+        
+        <Testimonial company="Workcation" job="CTO" name="May Anderson">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure ratione nobis voluptatibus alias, corporis adipisci ipsa sit consequuntur laborum animi laudantium maiores esse doloribus voluptas. Fugiat ratione alias in autem. 
+        </Testimonial>
       </div>
     </>
   )
